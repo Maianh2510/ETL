@@ -27,4 +27,13 @@ The main goal: Our primary objective is to perform ETL (Extraction, Transformati
     
 6. How to load files?
 
-   
+**We need to do:**
+
+*1. What does raw data look like?*
+
+Step 1 : Load data
+
+Step 2 : View 5 first row of data
+
+Via these two steps revealed the raw data.
+
