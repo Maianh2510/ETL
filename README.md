@@ -29,6 +29,8 @@ The main goal: Our primary objective is to perform ETL (Extraction, Transformati
 
 **We need to do:**
 
+First, We need to import library
+
 *1. What does raw data look like?*
 
 Step 1 : Load data
@@ -36,4 +38,13 @@ Step 1 : Load data
 Step 2 : View 5 first row of data
 
 Via these two steps revealed the raw data.
+
+*2. How do we know if we need to ETL data? and why?*
+
+Step 3 : I checked the data information. As a result, we need to clean the data in the tables. 
+
+Because, this will ensure consistency and uniformity, enhancing data accuracy. Subsequently, we can create visualizations, model the data, and support sound business decisions.
+
+
+
 
