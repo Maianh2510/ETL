@@ -19,13 +19,11 @@ The main goal: Our primary objective is to perform ETL (Extraction, Transformati
    
 2. How do I know if I need to etl data? and why?
    
-3. What if the data is misformatted?
-   
-4. What if there is missing data?
-   
-5. How to combine data from files?
+3. What if the data is misformatted and missing data?
     
-6. How to load files?
+4. How to combine data from files?
+    
+5. How to load files?
 
 **We need to do:**
 
@@ -44,6 +42,10 @@ Via these two steps revealed the raw data.
 Step 3 : I checked the data information. As a result, we need to clean the data in the tables. 
 
 Because, this will ensure consistency and uniformity, enhancing data accuracy. Subsequently, we can create visualizations, model the data, and support sound business decisions.
+
+*3. What if the data is misformatted and missing data?*
+
+Step 4 : After step 3, I have handled the following for values ​​that are not in the correct format or are missing:
 
 
 
