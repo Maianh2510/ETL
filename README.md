@@ -46,6 +46,27 @@ Because, this will ensure consistency and uniformity, enhancing data accuracy. S
 *3. What if the data is misformatted and missing data?*
 
 Step 4 : After step 3, I have handled the following for values ​​that are not in the correct format or are missing:
+In Table 1 : Enrollies' data
+# Fill null value in column gender by  other
+
+df['gender'] = df['gender'].fillna('other').str.lower()
+
+df['full_name'] = df['full_name'].fillna('unknown').str.lower()
+
+df['city'] = df['city'].fillna(df['city'].mode()[0]).str.lower()
+
+# convert column gender to category
+
+df['gender'] = df['gender'].astype('category')
+
+df['full_name'] = df['full_name'].astype('string')
+
+df['city']=df['city'].str.lower().astype('category')
+
+**Please see the attached file for my work.**
+
+
+
 
 
 
