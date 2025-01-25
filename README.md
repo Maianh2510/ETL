@@ -73,9 +73,21 @@ I create a database file and then upload it to the Colab program. I will proceed
 
 ![image](https://github.com/user-attachments/assets/389dd86a-758a-4c49-8913-bf7772730156)
 
+*5. How to load files?*
 
+To load data into the file etl.py, follow these steps:
 
+![image](https://github.com/user-attachments/assets/0900213c-6faf-494b-a9aa-d891672a2bb9)
 
+To load data into the file database.db, follow these steps:
+
+![image](https://github.com/user-attachments/assets/1922e235-991d-42ef-a232-753b876c3322)
+
+![image](https://github.com/user-attachments/assets/dd8ddee8-2113-4adb-a409-7f71980c7422)
+
+**Please see the attached file for my work.**
+
+Link: https://colab.research.google.com/drive/1kRiq5DDMgsak2HhuxA_je1sAHRTHawVe?usp=sharing
 
 
 
