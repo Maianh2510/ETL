@@ -37,33 +37,41 @@ Step 2 : View 5 first row of data
 
 Via these two steps revealed the raw data.
 
+![image](https://github.com/user-attachments/assets/6ecd38a7-c3f3-41af-837e-689c62dead54)
+
+
 *2. How do we know if we need to ETL data? and why?*
 
 Step 3 : I checked the data information. As a result, we need to clean the data in the tables. 
 
 Because, this will ensure consistency and uniformity, enhancing data accuracy. Subsequently, we can create visualizations, model the data, and support sound business decisions.
 
+![image](https://github.com/user-attachments/assets/562f98d1-ec5b-4399-981f-46cda90df9ea)
+
+
 *3. What if the data is misformatted and missing data?*
 
 Step 4 : After step 3, I have handled the following for values ​​that are not in the correct format or are missing:
 In Table 1 : Enrollies' data
-# Fill null value in column gender by  other
 
-df['gender'] = df['gender'].fillna('other').str.lower()
+![image](https://github.com/user-attachments/assets/dbbb2614-3a52-42b1-8d99-3b9a42e740e3)
 
-df['full_name'] = df['full_name'].fillna('unknown').str.lower()
+![image](https://github.com/user-attachments/assets/9f1b3a55-15a3-44b9-8854-3c7a256a9c72)
 
-df['city'] = df['city'].fillna(df['city'].mode()[0]).str.lower()
-
-# convert column gender to category
-
-df['gender'] = df['gender'].astype('category')
-
-df['full_name'] = df['full_name'].astype('string')
-
-df['city']=df['city'].str.lower().astype('category')
 
 **Please see the attached file for my work.**
+
+**Note: I always recheck the data after processing.**
+
+![image](https://github.com/user-attachments/assets/c81b055e-4551-43b9-a43d-e5f4be813427)
+
+**Data is complete and correctly formatted after recheck.**
+
+*4. How to combine data from files?*
+
+I create a database file and then upload it to the Colab program. I will proceed with the following steps:
+
+![image](https://github.com/user-attachments/assets/389dd86a-758a-4c49-8913-bf7772730156)
 
 
 
