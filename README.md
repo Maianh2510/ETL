@@ -7,3 +7,10 @@ Many people signup for their training. Company wants to know which of these cand
 
 Information related to demographics, education, experience are in hands from candidates signup and enrollment.
 
+**Data details**
+
+Source: Swiss coding academy
+
+The main goal: we need to do ETL (Extraction, Transformation, Loading)
+
+We need to answers below to find main goal:
