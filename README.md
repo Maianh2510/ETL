@@ -11,6 +11,6 @@ Information related to demographics, education, experience are in hands from can
 
 Source: Swiss coding academy
 
-The main goal: we need to do ETL (Extraction, Transformation, Loading)
+The main goal: Our primary objective is to perform ETL (Extraction, Transformation, Loading) on six data tables in five formats: Google Sheets, Excel, CSV, a database, and a website table.
 
 We need to answers below to find main goal:
